@@ -78,3 +78,16 @@ Environment and Electrical Engineering, 2026
 ## Key Equation
 
 BESS energy balance model used in analysis:
+
+E(t) = E(t-1) + ηc·Pc(t)·Δt - Pd(t)·Δt/ηd
+
+Where E(t) = stored energy, Pc/Pd = charging/discharging power,
+ηc/ηd = efficiencies, Δt = time interval.
+
+---
+
+## Related Projects
+
+- [Germany–Switzerland Energy Storage Model](https://github.com/danishalimemon11-sys/germany-switzerland-energy-storage-model)
+- [Flexibility Investment Analysis](https://github.com/danishalimemon11-sys/flexibility-investment-analysis)
+- [Battery Pack Thermal Management](https://github.com/danishalimemon11-sys/battery-thermal-management)
